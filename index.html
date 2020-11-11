@@ -4,29 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+    </style>
+
 </head>
 <body>
-    <p>Koks nors tekstas</p> 
-    <p>Kitas koks nors tekstas</p>
-    <h1>Antraštė</h1>
+    <img src="https://www.vilniuscoding.lt/wp-content/themes/vcs/assets/img/logo-01.svg" alt="VCS Logo" width="200" height="300">
+    <h1>About</h1>
+    <p>VCS is an initiative that want to keep <b>open</b> and do it through <i>practical projects and locals events</i> that gather smart, creative people around big ideas, solving problems and building the <b>open web.</b></p>
 
-    <img src="images/photo.jpg" alt="bzzzz">
-    <img src="https://images.unsplash.com/photo-1604814993158-a32d32ce92cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="palme">
+    <h2>Projects</h2>
+    <ul>
+    <li>Featured</li>
+        <ul>
+        <li><a href="https://www.mozillalabs.com/en-US/school-of-webcraft/index.html">School of Webcraft</a></li>
+        <li><a href="https://crisiscommons.org">Crisis Commons</a>
+        </li>
+    </ul>
+    <li>Latest</li>
+        <ul>
+        <li><a href="https://code.google.com/archive/p/jessyink">JessyInk</a></li>
+        <li><a href="https://privacycamp.eu">PrivacyCamp</a>
+        </li>
+    </ul>
+    </ul>
 
-    <h2>Subantraštė</h2>
-    <a href="https://www.google.com">Google</a>
-    <a target="_blank" href="https://www.delfi.lt">Delfi</a>
+    <h2>Festival Schedule</h2>
+    
+    <table>
+        <tr>
+          <th>Time</th>
+          <th>Topic</th>
+        </tr>
+        <tr>
+          <td>18:00 - 20:30</td>
+          <td>Registration</td>
+        </tr>
+        <tr>
+            <td>20:30 - 23:00</td>
+            <td>Keynote</td>
+        </tr>
+      </table>
+      
+      </body>
+      </html>
 
-    <ol reversed="reversed" start="10" type= "A">
-        <li>Pirmas punktas</li>
-        <li>Antras punktas</li>
-        <li>Trečias punktas</li>
-    </ol>
+    <h2>Sign Up!</h2>
+    <form action="">
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
 
-    <form action="https://google.com/search">
-        <input type="text" name="query">
-        <button> Ieškoti</button>
     </form>
+        <label for="Location">Location:</label>
+        <select id="Citys" name="Citys" form="Citys">
+        <option value="sydney">Sydney</option>
+        <option value="vilnius">Vilnius</option>
+        <option value="paris">Paris</option>
+        <option value="Berlin">Berlin</option>
+        </select><br>
+    <form action="">
+        <p>Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+    </p>
+    <p>Experience:<br>
+    <textarea rows="3" cols="60" name="comment" form="usrform">
+    </textarea>
+    </p>
+    <button type="button">Sing up!</button><br><br>
+    </form>
+
+    <a href="https://www.Twitter.com">Twitter</a>
+    <a href="https://www.Facebook.com">Facebook</a>
+    <a href="https://www.Twitter.com">Flickr</a>
+
 
 </body>
 
